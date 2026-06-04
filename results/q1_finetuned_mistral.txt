@@ -1,0 +1,22 @@
+=== Start: 2026-05-16 17:39:12.770857 ===
+
+Logging în: /home/stefan_voica04/project/logs/q1_finetuned.txt
+=== Rank r=4 ===
+
+
+--- Evaluare test set (r=4) ---
+trainable params: 1,490,944 || all params: 3,186,135,040 || trainable%: 0.0468
+
+Accuracy: 77.95% | Macro-F1: 0.6952
+                    precision    recall  f1-score   support
+
+              safe       0.90      0.86      0.88      1238
+potentially_unsafe       0.39      0.44      0.41       334
+            unsafe       0.77      0.81      0.79       628
+
+          accuracy                           0.78      2200
+         macro avg       0.69      0.70      0.70      2200
+      weighted avg       0.79      0.78      0.78      2200
+
+
+=== End: 2026-05-16 17:46:24.135362 ===

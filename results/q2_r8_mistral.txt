@@ -1,0 +1,22 @@
+=== Start: 2026-05-16 17:46:24.135567 ===
+
+Logging în: /home/stefan_voica04/project/logs/q2_r8.txt
+=== Rank r=8 ===
+
+
+--- Evaluare test set (r=8) ---
+trainable params: 2,981,888 || all params: 3,187,625,984 || trainable%: 0.0935
+
+Accuracy: 76.45% | Macro-F1: 0.6858
+                    precision    recall  f1-score   support
+
+              safe       0.90      0.83      0.86      1238
+potentially_unsafe       0.36      0.44      0.40       334
+            unsafe       0.78      0.81      0.80       628
+
+          accuracy                           0.76      2200
+         macro avg       0.68      0.69      0.69      2200
+      weighted avg       0.78      0.76      0.77      2200
+
+
+=== End: 2026-05-16 17:53:23.059290 ===

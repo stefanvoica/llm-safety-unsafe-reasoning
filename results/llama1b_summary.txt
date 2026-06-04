@@ -1,0 +1,14 @@
+=== Start: 2026-05-17 18:24:27.472506 ===
+
+Logging în: /home/stefan_voica04/project/logs/llama1b_summary.txt
+=== Sumar Macro-F1 per Rank — Llama-3.2-1B ===
+
+  Rank |  Accuracy |  Macro-F1
+--------------------------------
+r=   4 |    76.36% |    0.6835
+r=   8 |    77.14% |    0.6808
+r=  16 |    76.05% |    0.6842
+r=  32 |    76.45% |    0.6889
+r=  64 |    77.45% |    0.6992
+
+=== End: 2026-05-17 18:24:27.472664 ===

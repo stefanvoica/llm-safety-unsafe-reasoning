@@ -1,0 +1,41 @@
+=== Start: 2026-05-17 12:49:35.672583 ===
+
+Logging în: /home/stefan_voica04/project/logs/llama1b_r4.txt
+=== Llama-3.2-1B | Rank r=4 ===
+
+trainable params: 851,968 || all params: 1,236,666,368 || trainable%: 0.0689
+Class weights: safe=2.22, pot_unsafe=5.05, unsafe=2.84
+
+=== Epoca 1/3 ===
+Train loss: 0.8115
+Val loss: 0.6015 | Val acc: 77.00%
+✅ Salvat best model (val_loss=0.6015)
+
+=== Epoca 2/3 ===
+Train loss: 0.5840
+Val loss: 0.5654 | Val acc: 79.00%
+✅ Salvat best model (val_loss=0.5654)
+
+=== Epoca 3/3 ===
+Train loss: 0.5387
+Val loss: 0.5440 | Val acc: 78.00%
+✅ Salvat best model (val_loss=0.5440)
+
+🏁 Done. Best val_loss: 0.5440
+
+--- Evaluare test set (r=4) ---
+trainable params: 851,968 || all params: 1,236,666,368 || trainable%: 0.0689
+
+Accuracy: 76.36% | Macro-F1: 0.6835
+                    precision    recall  f1-score   support
+
+              safe       0.89      0.83      0.86      1238
+potentially_unsafe       0.37      0.44      0.40       334
+            unsafe       0.78      0.80      0.79       628
+
+          accuracy                           0.76      2200
+         macro avg       0.68      0.69      0.68      2200
+      weighted avg       0.78      0.76      0.77      2200
+
+
+=== End: 2026-05-17 13:56:33.150977 ===

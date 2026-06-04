@@ -1,0 +1,12 @@
+=== Start: 2026-05-17 04:57:08.025836 ===
+
+Logging în: /home/stefan_voica04/project/logs/phi4mini_summary.txt
+=== Sumar Macro-F1 per Rank — Phi-4-mini ===
+
+  Rank |  Accuracy |  Macro-F1
+--------------------------------
+r=   4 |    78.91% |    0.6975
+r=  32 |    78.27% |    0.7110
+r=  64 |    79.50% |    0.7129
+
+=== End: 2026-05-17 04:57:08.025973 ===

@@ -1,0 +1,11 @@
+=== Start: 2026-05-19 13:18:59.795728 ===
+
+Logging în: /home/stefan_voica04/project/logs/bert_summary.txt
+=== Sumar BERT ===
+
+Variant    |  Accuracy |  Macro-F1
+------------------------------------
+base       |    66.18% |    0.6135
+large      |    68.45% |    0.6340
+
+=== End: 2026-05-19 13:18:59.795847 ===

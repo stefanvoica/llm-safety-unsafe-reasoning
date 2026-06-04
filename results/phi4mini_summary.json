@@ -1,0 +1,23 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "max_length": 1024,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "epochs": 3,
+  "timestamp": "2026-05-17 04:57:08.025991",
+  "results": {
+    "r4": {
+      "accuracy": 0.7891,
+      "macro_f1": 0.6975
+    },
+    "r32": {
+      "accuracy": 0.7827,
+      "macro_f1": 0.711
+    },
+    "r64": {
+      "accuracy": 0.795,
+      "macro_f1": 0.7129
+    }
+  },
+  "best_rank": 64
+}
